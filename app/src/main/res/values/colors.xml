@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/brownJungle</color>
+    <color name="colorPrimaryDark">@color/darkJungle</color>
+    <color name="colorAccent">@color/lightJungle</color>
+    <color name="colorSecondary">@color/mediumSea</color>
+
+    <color name="brownJungle">#604C04</color>
+    <color name="darkJungle">#5D6E1E</color>
+    <color name="mediumJungle">#94B447</color>
+    <color name="lightJungle">#CBE54E</color>
+    <color name="mediumSea">#5BA8A0</color>
+    <color name="warmWhite">#FCFEF6</color>
+</resources>
