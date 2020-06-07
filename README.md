@@ -12,5 +12,7 @@ that only maintains the creation of the graph
 2. flickrSearch module is a simple module that provides the search results transformed to UI layer data by exposing all the data
 via a simple repository access
 3. Other technologies use is view binding instead of kotlin data binding, coroutines and live data.
-4. In case of unit testing, i couldn't find any reasonable options to build any other than testing the business logic, which can vary
-from verifying if the transformation methods are working properly via mocking 
+4. In case of unit testing, I couldn't find any reasonable options to build any other than testing the business logic, which can vary from verifying if the transformation methods are working properly via mocking (intentionally not adding any because of time constraints)
+5. As a personal taste I prefer Kotlin DSL instead of pure gradle files (might contribute to longer build times on large scale projects)
+6. Instead of adding a search button I opted for using a debouncer of a couple of ms when searching for keywords.
+7. The UI is quite lacking, could contain more information and probably some animations.
