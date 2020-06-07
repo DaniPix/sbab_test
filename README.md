@@ -2,7 +2,8 @@
 
 Use Flickr API to search for random images based on input query.
 
-MVVM approach in a multi-modular project
+MVVM approach in a multi-modular project, where each feature is a separate module. This approach in my opinion helps
+build a scalable app for the future. Potentially all isolated UI components (views, fragments, activities and resources can reside in their own module container)
 
 Some explanation about the approach taken in implementation of the test case
 
